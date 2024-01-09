@@ -1,0 +1,1 @@
+Este codigo programado tiene Copyright por La Enredadera, si utilizas este codigo para tu web ya sea de uso comercial u otra cosa, se tomararan las medidas necesarias por vias legales.

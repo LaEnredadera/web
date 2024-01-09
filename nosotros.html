@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Data de la Web-->
+    <meta property="og:title" content="Bienvenido a la Web de La Enredadera">
+     <meta property="og:description"
+      content="Hola, bienvenido a la Web La Enredadera">
+   <meta property="og:image" content="../images/Gatito.jpg">
+    <title>La Enredadera</title>
+   <!--End Data-->
+    <link rel="shortcut icon" href="../images/Gatito.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+  <!--Info de cabacera-->
+    <header id="header">
+      <label class="logo">La Enredadera</label>
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+              <li><a href="./index.html">Inicio</a></li>
+               <li><a href="./galeria.html">Galería</a></li>
+               <li><a href="./estrenos.html">Estrenos</a></li>
+               <li><a href="./nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <section class="textos-header" data-aos="fade-up">
+    <h1>Sobre Nosotros</h1>
+   
+
+    </section>
+<section class="wave">
+  <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.00,49.85 C150.00,149.60 349.20,-49.85 500.00,49.85 L500.00,149.60 L-0.00,149.60 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+</section>
+  <section class="hero">
+    <div class="hero-main">
+    <figure class="image-section">
+      <!--Cambiar imagen por futuro logo-->
+      <img src="./images/sobre-nosotros.jpg" alt="telón" data-aos="fade-up">
+    </figure>
+
+      <!--el error esta en text, mirar parametros-->
+    <div class="hero-text" data-aos="fade-up">
+    <h3>¿Qué es la Enredadera?</h3>
+    <p>La Enredadera surgio de la mezcla de nuestro centro y nuestras obras de teatro, es una productora que recopila todas las actuaciones que se han realizado, por si os las habeis perdido, poder disfrutar de las interpretaciones otra vez.</p>
+    </div>
+  </section>
+  <section class="hero4">
+    <div class="hero-body4">
+      <div class="hero-body-text4" data-aos="fade-up">
+        <h3>¿Donde Encontrarnos?</h3>
+      </div>
+      <div class="hero-text4" data-aos="fade-up">
+         <p>Podeis encontrar nuestras instalaciones en IES La Arboleda c/Del Oeste - Alcorcón</p>
+      </div>
+      <figure class="hero-body-img4">
+        <iframe class="map-google"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.038994830749!2d-3.83540072452086!3d40.34148096021662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418eb3d0b2e833%3A0xc65fa6f3ed453e30!2sIES%20La%20Arboleda!5e0!3m2!1ses!2ses!4v1699869178382!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-aos="fade-up"></iframe>
+      </figure> 
+
+    </div>
+  </section>
+
+<!--::::: Pie de Página:::::-->
+  <footer class="pie-pagina">
+    <div class="grupf-1">
+      <div class="footer-row">
+        <div class="footer-links">
+           <h4>Compañia</h4>
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+             <li><a href="./galeria.html">Galería</a></li>
+             <li><a href="./estrenos.html">Estrenos</a></li>
+             <li><a href="./nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+
+        </div>
+        <div class="footer-links">
+           <h4>Redes Sociales</h4>
+          <div class="red-social">
+            <a href="./Gatito.html"><i class="fa fa-facebook"></i></a>
+             <a href="./Gatito.html"><i class="fa fa-instagram"></i></a>
+             <a href="./Gatito.html" type="video/mp4"><i class="fa fa-twitter"></i></a>
+             <a href="./Gatito2.html"><i class="fa fa-youtube"></i></a>
+            </div>
+
+        </div>
+      </div>
+      </div>  
+
+    <div class="grupo-2">
+      <small>&copy; 2023 <b>La Enredadera</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
+
+    <script src="./js/main.js"></script>
+  <script src="https://kit.fontawesome.com/2c293b0a94.js" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      delay: 100,
+      // once: true,
+    });
+  </script>
+</body>
+</html>
